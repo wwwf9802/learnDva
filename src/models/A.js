@@ -1,3 +1,5 @@
+import pathToRegexp from 'path-to-regexp';
+import qs from 'qs'
 let pro1=(num)=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
@@ -16,6 +18,15 @@ export default {
 
     subscriptions: {
         setup({ dispatch, history }) {  // eslint-disable-line
+            history.listen((location)=>{
+                //let match = pathToRegexp('/advert/list').exec(location.pathname);
+                console.log('subscriptionssubscriptions')
+                console.log(location)
+                let search=location.search
+                console.log(qs.parse(search))
+                console.log(pathToRegexp('/home/a/:id'))
+                //let flag=pathToRegexp('/home/a/:abc').exec(location.pathname)
+            })
         },
     },
 

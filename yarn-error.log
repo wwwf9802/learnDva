@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add path-to-regexp --save-dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/inkoukusunoki/Library/Caches/Yarn/v4/npm-ms-2.1.1-30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a/node_modules/ms/index.js' -> '/Users/inkoukusunoki/Desktop/project/learnDva/node_modules/@babel/core/node_modules/ms/index.js'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "cross-env yhn=1234 roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.0",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "classnames": "^2.2.6",
+      "cross-env": "^5.2.0",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "node-sass": "^4.9.3",
+      "path-to-regexp": "^2.4.0",
+      "prop-types": "^15.6.2",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.0.0",
+      "sass-loader": "^7.1.0",
+      "sass-resources-loader": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

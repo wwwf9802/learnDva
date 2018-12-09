@@ -8,11 +8,14 @@
   },
   "dependencies": {
     "dva": "^2.4.0",
+    "qs": "^6.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "antd": "^3.11.0",
     "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.11.0",
     "classnames": "^2.2.6",
     "cross-env": "^5.2.0",
     "eslint": "^4.14.0",
@@ -27,6 +30,7 @@
     "prop-types": "^15.6.2",
     "redbox-react": "^1.4.3",
     "roadhog": "^2.0.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.0"
   }
 }
